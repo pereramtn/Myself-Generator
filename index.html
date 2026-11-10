@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Myself Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Myself Generator</h1>
+
+        <form id="myForm">
+
+            <label>Enter Your Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label>Enter Your Age</label>
+            <input type="number" id="age" placeholder="Enter your age" required>
+
+            <label>Enter Your City</label>
+            <input type="text" id="city" placeholder="Enter your city" required>
+
+            <label> Enter Your Education Qualification</label>
+            <input type="text" id="education" placeholder="Enter your education" required>
+
+            <label>Enter Your Hobby</label>
+            <input type="text" id="hobby" placeholder="Enter your hobby" required>
+
+            <button type="button" onclick="generateParagraph()">
+                Generate
+            </button>
+
+        </form>
+
+        <div id="result" > </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
